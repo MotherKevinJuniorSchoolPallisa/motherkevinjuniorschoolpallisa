@@ -1,0 +1,68 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f0f8ff; /* light blue background */
+    color: #333;
+}
+
+/* Navigation */
+p a {
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #1E90FF; /* school blue */
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+p a:hover {
+    background-color: #1C86EE; /* slightly darker blue */
+}
+
+/* Headings */
+h1 {
+    color: #1E90FF;
+    text-align: center;
+}
+
+h2 {
+    color: #1E90FF;
+    margin-top: 20px;
+    border-bottom: 2px solid #1E90FF;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+/* Contact form */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #1E90FF;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1C86EE;
+}
